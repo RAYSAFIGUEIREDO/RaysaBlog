@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { windowCount } from 'rxjs';
 import { User } from '../model/User';
-import { UserLogin } from '../model/User.Login';
+import { UserLogin } from '../model/UserLogin';
 import { AuthServicce } from '../service/auth.service';
 
 @Component({
