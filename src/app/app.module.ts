@@ -12,6 +12,9 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
+import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
+import { DeleteTemaDeleteComponent } from './delete-tema-delete/delete-tema-delete.component';
+import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { TemaComponent } from './tema/tema.component';
     EntrarComponent,
     CadastrarComponent,
     InicioComponent,
-    TemaComponent
+    TemaComponent,
+    TemaEditComponent,
+    DeleteTemaDeleteComponent,
+    TemaDeleteComponent
   ],
   imports: [
     BrowserModule,
